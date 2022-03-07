@@ -17,7 +17,7 @@ FIFO Calss
            void send(int id,String dato); //Guarda el dato. Si la pila está llena devuelve -1
            int get(String *cadena);  //Lee dato FIFO
            char charAt(int i); //devuelve un caracter de la siguiene cadena de la fifo, sin sacarla de esta
-           bool empty(){return (indrFIFO==indwFIFO); }  //India si la Fiffo está vacia
+           bool empty(){return (indrFIFO==indwFIFO); }  //India si la Fifo está vacia
            int free();  //devuelve el espacio libre  de la pila
            bool error(){return _error;}
            
