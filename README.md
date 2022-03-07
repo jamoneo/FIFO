@@ -11,7 +11,8 @@ FIFO Calss
    puertos, identificando posteriormente la procedencia para dar la respuesta adecuada al remitente que hizo 
    la solicitud
 
- Funciones
+ Funciones:
+ 
            void reset(); //borra la fifo
            void send(int id,String dato); //Guarda el dato. Si la pila está llena devuelve -1
            int get(String *cadena);  //Lee dato FIFO
