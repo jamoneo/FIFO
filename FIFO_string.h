@@ -1,8 +1,8 @@
 /* FIFO String
  * (c) José Angel Moneo Fernández
- * Amacena caenas string en un formato FIFO.
+ * Almacena cadenas string en un formato FIFO.
  * La estuctura lleva asociada una cadena y un número entero que sirve de indicador axiliar
- * Este indicador puede ser usado para caracterizar la cadena almacenada o para almacenar cualuier dato extra asociado 
+ * Este indicador puede ser usado para caracterizar la cadena almacenada o para almacenar cualquier dato extra asociado 
  * a a la cadena.
  *  El uso más común de este indicador sería, por ejemplo, en el caso de un gestor de comandos,
  *  el solicitante del comando, de forma que se pueden gesitonar comandos procedentes de varios
